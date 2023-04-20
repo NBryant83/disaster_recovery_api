@@ -2,14 +2,14 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url:
-    username:
-    password:
+    url: jdbc:mysql://disastercapstone.cix5ljsxpkns.us-east-1.rds.amazonaws.com
+    username: admin
+    password: Disaster
 
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto:
     database-platform: org.hibernate.dialect.MySQL8Dialect
 
   data:
